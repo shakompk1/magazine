@@ -2,6 +2,113 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+/* header */
+.universal__back{
+    background-color: #D9DADB;
+}
+.vertical-line {
+    border-left: 2px solid #D9DADB;
+    height: 50px;
+    margin-left: 25px;
+  }
+.top-navigation{
+    display: flex;
+    background-color: white;
+}
+.Hamburger__menu{
+    margin-left: 133px;
+}
+.section__text{
+    font-family: Lato;
+    margin-left: 15px;
+}
+.Search__img{
+    margin-left: 25px;
+}
+.Search__text{
+    color: #939699;
+    font-family: Lato;
+    margin-left: 10px;
+}
+.destinations__img{
+    margin-left: 400px;
+}
+.subscribe-btn{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 600;
+    font-family: Lato;
+}
+.pricing-info{
+    color: #939699;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+}
+.special-offer{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.man__img{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.Sign__In{
+    margin-top: 10px;
+    font-family: Lato;
+    color: #4B5157;
+    margin-left: 10px;
+}
+.section-break{
+    border: 1px solid #D9DADB;
+    margin-left: 123px;
+    width: 900px; 
+}
+.universal__img{
+    margin-left: 123px;
+   
+}
+.city-highlight{
+    color: #4B5157;
+    width: 203px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 15px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Uppercase__text{
+    margin-left: 60px;
+    margin-top: 22px;
+}
+.history{
+    color: #4B5157; 
+    width: 180px;
+    height: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left:75px;   
+    margin-top: 32px;     
+}
+.sun{
+    color: #4B5157;
+    width: 44px;
+    height: 20px;
+
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 32px;
+    margin-left: 8px;
+}
+.sun__img{
+    margin-top: 32px;
+}
+
+
 
 .shared_posts {
     padding: 60px 0;
