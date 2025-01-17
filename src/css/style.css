@@ -2,6 +2,42 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+.recommend{
+    background: #FFFFFF;
+  
+}
+ .recommend >div h2{
+    margin:  20px 0;
+ max-width: 213px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #262D33;
+
+}
+.recommend >div h3{
+    
+    text-transform: uppercase;
+max-width: 213px;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.recommend >div p{
+    margin-top: 8px;
+   max-width:  213px;
+   color: #4B5157;
+font-size: 14px;
+line-height: 20px;
+text-align: left;
+}
+.recommend div{
+    max-width: 263px;
+    padding: 0 25px ;
+    border-bottom:1px solid #D9DADB ;
+}
 
 footer {
     height: 795px;
@@ -404,9 +440,10 @@ footer h2 {
 
 
 .news {
-    width: 1350px;
+    width: 1300px;
     height: 650px;
     background: #262D33;
+    margin-left: -60px;
 }
 
 .news-section {
