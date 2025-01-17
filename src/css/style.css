@@ -165,9 +165,10 @@ filter: brightness(550%) grayscale(100%);
 
 
 .news {
-    width: 1350px;
+    width: 1300px;
     height: 650px;
     background: #262D33;
+    margin-left: -60px;
 }
 
 .news-section {
