@@ -2,41 +2,46 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-.recommend{
+
+.recommend {
     background: #FFFFFF;
-  
-}
- .recommend >div h2{
-    margin:  20px 0;
- max-width: 213px;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0.5px;
-text-align: left;
-color: #262D33;
 
 }
-.recommend >div h3{
-    
+
+.recommend>div h2 {
+    margin: 20px 0;
+    max-width: 213px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #262D33;
+
+}
+
+.recommend>div h3 {
+
     text-transform: uppercase;
-max-width: 213px;
-font-size: 12px;
-line-height: 15px;
-letter-spacing: 0.5px;
-text-align: left;
+    max-width: 213px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;
 }
-.recommend >div p{
+
+.recommend>div p {
     margin-top: 8px;
-   max-width:  213px;
-   color: #4B5157;
-font-size: 14px;
-line-height: 20px;
-text-align: left;
+    max-width: 213px;
+    color: #4B5157;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
 }
-.recommend div{
+
+.recommend div {
     max-width: 263px;
-    padding: 0 25px ;
-    border-bottom:1px solid #D9DADB ;
+    padding: 0 25px;
+    border-bottom: 1px solid #D9DADB;
 }
 
 footer {
@@ -525,3 +530,116 @@ footer h2 {
     margin-top: -20px;
 }
 
+/* seltenet */
+.space_recommend {
+    display: flex;
+    width: 1140px;
+    height: 570px;
+
+}
+
+.turner {
+    display: grid;
+    grid-template-columns: 60px 130px;
+}
+
+.southeast {
+    font-size: 41px;
+    line-height: 50px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.destinations {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #4592FF;
+    font-weight: bold;
+}
+
+.benjaminturner {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    opacity: 85%;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.traveler {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    opacity: 40%;
+    color: #FFFFFF;
+}
+
+.read_more_btn {
+    background-color: #4592FF;
+    border-color: #4592FF;
+    color: #FFFFFF;
+    width: 138px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.chalk {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    opacity: 85%;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.time {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    opacity: 40%;
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 40px;
+}
+
+.chalk_time {
+    display: grid;
+    grid-template-columns: 60px 190px;
+    margin-left: 30px;
+}
+
+.space {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.turner {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+}
+
+.destinations-all {
+    position: absolute;
+    top: 245px;
+    left: 55px;
+}
+
+.landspace {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
