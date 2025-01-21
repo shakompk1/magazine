@@ -639,9 +639,7 @@ footer h2 {
     left: 55px;
 }
 
-.landspace_bg {
+.landspace {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 877px;
-    height: 570px;
 }
