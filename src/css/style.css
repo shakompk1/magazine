@@ -643,3 +643,31 @@ footer h2 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.back{
+    background: url('../public/bigbloom.png')center center/cover no-repeat;
+    padding: 65px 0 121px;
+}
+.propertie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bloom{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+}
+.btn1{
+    width: 160px;
+    height: 50px;
+    top: 175px;
+    left: 614px;
+    border-radius: 30%;
+    background: #4592FF;   
+}
+.btn1-text{
+    color: #FFFFFF;
+    font-size: 18px;
+}
