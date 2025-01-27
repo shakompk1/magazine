@@ -643,3 +643,217 @@ footer h2 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.grid{
+    background: lightgray;
+    padding: 50px;
+}
+.cars{
+    background: rgba(255, 255, 255, 1);
+}
+.car{
+    display: flex;
+    border-bottom: 1px solid rgba(217, 218, 219, 1);
+}
+.car h3{
+    padding-left: 36px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: rgba(110, 153, 174, 1);
+}
+.car h2{
+    padding-left: 36px;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(38, 45, 51, 1);
+}
+.car p{
+    padding-left: 36px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(75, 81, 87, 1);
+    transform: translateX(2px);
+}
+.hailing{
+    padding-left: 36px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(75, 81, 87, 1); 
+    transform: translate(20px,-10px);
+}
+.hailing .girl{
+    transform: translate(-10px,10px);
+}
+.hailing span{
+    color: rgba(38, 45, 51, 1);
+    font-weight: 700;
+}
+.popular{
+    background: lightseagreen;
+}
+.popular .Popular{
+    width: 50px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(61, 196, 126, 1);
+}
+.popular h3{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: rgba(231, 217, 255, 1);
+}
+.popular h2{
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.contact{
+    display: flex;
+}
+.contact .girl{
+    padding: 20px;
+}
+.sarah h2{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    transform: translate(-30px,10px);
+}
+.sarah p{
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    transform: translateX(-10px);
+}
+.column{
+    background: rgba(110, 153, 174, 1);
+}
+.column h2{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    padding: 20px;
+}
+.border{
+    border-top: 1px solid rgba(180, 209, 224, 1);
+    border-bottom: 1px solid rgba(180, 209, 224, 1);
+}
+.Quote{
+    transform: translate(20px,40px);
+    z-index: -1;
+}
+.text h2{
+    transform: translateY(-20px);
+    z-index: 1;
+}
+.text .avatar, p{
+    transform: translate(20px,20px);
+}
+.second{
+    width: 50px;
+    height: 50px;
+    transform: translate(20px,20px);
+}
+.contact{
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(209,226,235,1);
+}
+.border{
+    border-top: 1px solid rgba(180, 209, 224, 1);
+    border-bottom: 1px solid rgba(180, 209, 224, 1);
+}
+.cat{
+    background: rgba(255, 255, 255, 1);
+}
+.cat img{
+    width: 300px;
+    height: 500px;
+}
+.cat h3{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(38, 45, 51, 1);
+    padding: 30px;
+}
+.title{
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+}
+.title h3{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(38, 45, 51, 1);
+    padding: 10px;
+}
+.title p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(75, 81, 87, 1);
+    padding: 10px;
+    transform: translateX(2px);
+}
+.data{
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(147, 150, 153, 1);
+    padding: 10px;
+}
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+        "div1 div1 div2 div3"
+        "div1 div1 div2 div3"
+        "div4 div5 div6 div3"
+        "div4 div7 div8 div3"
+    ;
+}
+.cards div{
+    border-radius: 5%;
+}
+.cars{
+    grid-area: div1;
+}
+.popular{
+    grid-area: div2;
+}
+.column{
+    grid-area: div3;
+}
+.cat{
+    grid-area: div4;
+}
+.coffee{
+    grid-area: div5;
+}
+.factory{
+    grid-area: div6;
+}
+.world{
+    grid-area: div7;
+}
+.lemon{
+    grid-area: div8;
+}
+.read{
+    margin-top: 30px;
+    text-align: center;
+    transform: translateX(-10px);
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
